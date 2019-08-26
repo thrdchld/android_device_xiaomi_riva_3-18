@@ -250,6 +250,10 @@ PRODUCT_PACKAGES += \
     libandroid_net \
     netutils-wrapper-1.0
 
+# OOS ScreenRecorder
+PRODUCT_PACKAGES += \
+    ScreenRecorder
+
 # OMX
 PRODUCT_PACKAGES += \
     libc2dcolorconvert \
