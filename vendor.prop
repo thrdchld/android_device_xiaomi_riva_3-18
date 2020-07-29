@@ -142,3 +142,7 @@ persist.sys.wfd.virtual=0
 
 # Wifi
 wifi.interface=wlan0
+
+# ART
+dalvik.vm.dex2oat-filter=speed
+dalvik.vm.image-dex2oat-filter=speed
