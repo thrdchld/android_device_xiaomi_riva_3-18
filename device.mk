@@ -399,3 +399,7 @@ PRODUCT_COPY_FILES += \
 
 # Inherit common proprietary files
 $(call inherit-product-if-exists, vendor/xiaomi/riva/riva-vendor.mk)
+
+# Recorder
+PRODUCT_PACKAGES += \
+    OPScreenRecorder
