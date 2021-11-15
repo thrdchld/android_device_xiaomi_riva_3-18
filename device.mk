@@ -432,9 +432,6 @@ PRODUCT_PACKAGES += \
     libqdMetaData \
     libqdMetaData.vendor
 
-PRODUCT_BOOT_JARS += \
-    WfdCommon
-
 # WiFi
 PRODUCT_PACKAGES += \
     libwpa_client \
