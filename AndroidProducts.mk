@@ -14,7 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_riva.mk
+    $(LOCAL_DIR)/carbon_riva.mk
 
 COMMON_LUNCH_CHOICES := \
+     carbon_riva-eng \
+     carbon_riva-user \
      lineage_riva-userdebug
