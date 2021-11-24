@@ -29,10 +29,6 @@ TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 TARGET_BOOT_ANIMATION_RES := 1080
 
-WITH_GAPPS := true
-
-CYGNUS_BUILD_TYPE := OFFICIAL
-
 # Inherit from riva device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
